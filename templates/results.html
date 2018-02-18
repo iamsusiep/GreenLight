@@ -35,7 +35,17 @@
 
 <body>
 
-<h1>We think your crush does like you!</h1>
-<h1>{{ sentiment_score|tojson }}</h1>
+<script type = "text/javascript">
+	function check(){
+		if  ({{ sentiment_score|tojson }} > 0){
+			return 'We think your crush likes you!';
+		}
+		return 'Sorry, your crush isn\'t interested';
+	}
+	
+	document.write("<span class='blue'>" + check().fontsize(30) + "</span>");
+</script>
+<h3>The sentiment score is: {{ sentiment_score|tojson }}</h3>
+<h4>To start over, please refresh the page! <h4>
 </body>
 </html>
