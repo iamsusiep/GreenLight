@@ -1,4 +1,4 @@
-# GreenLight
+# Green Light
 ![1](https://user-images.githubusercontent.com/21698734/36358868-d908d940-14e2-11e8-934f-5412678a8e99.JPG)
 ###### *The main page, where you can upload the txt file with your crush's message content*
 
@@ -25,3 +25,5 @@ We learned to develop a web application and use external APIs to process informa
 
 ## __What's next for Green Light__
 We would love to expand on its functionality and improve the user experience. For instance, the app may read in messages directly from texting tools, such as the Facebook messenger. In the future, GreenLight may also process speech to analyze the sentiments in different tones.
+
+DEVPOST url: https://devpost.com/software/green-light
